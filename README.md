@@ -33,8 +33,7 @@ wrapped in a **Streamlit** UI.
 ```bash
 pip install -r requirements.txt
 ```
-Paste a free Groq API key (from https://console.groq.com/keys) into the
-`GROQ_API_KEY` variable at the top of `app.py`.
+Create a `.env` file in the project folder with `GROQ_API_KEY=your_free_groq_key_here` (get a free key from https://console.groq.com/keys). Do not commit this file.
 
 ## Run
 ```bash
